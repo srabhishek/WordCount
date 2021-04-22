@@ -11,6 +11,7 @@ object MainEntry {
     Logger.getLogger("org").setLevel(Level.OFF) 
     Logger.getLogger("akka").setLevel(Level.OFF)
 
+    println("After Jenkins Intergration --------------->")
     println("Starting the entry point --------------->")
 
     val spark = DemoSparkSession.spark
